@@ -36,6 +36,9 @@ gem 'simple_form', github: 'heartcombo/simple_form'
 # Gemfile
 gem 'dotenv-rails', groups: %i[development test]
 
+# Gemfile
+gem 'cloudinary'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
