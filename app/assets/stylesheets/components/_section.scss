@@ -1,0 +1,18 @@
+.section {
+  align-items: center;
+  background: url('list_background_1.jpg') no-repeat center / cover;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  position: sticky;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 0 9 15 8 #00000033;
+}
+
+.section:last-child {
+  background-image: url('#');
+  z-index: 1;
+}
