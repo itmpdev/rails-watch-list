@@ -11,13 +11,13 @@
   </div>
  <div class="row">
       <% @lists.each_with_index do |list, index| %>
-        <div class="column" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.photo.attached? ? cl_image_path(list.photo.key) : asset_path("list_background_#{index + 1}.jpg") %>)">
+        <%# <div class="column" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.photo.attached? ? cl_image_path(list.photo.key) : asset_path("list_background_#{index + 1}.jpg") %>)"> %>
           <%= link_to list_path(list), class:"text-decoration-none" do %>
           <h5 class="title"><%= list.name %></h5>
           <% end %>
 
-        </div>
-      <% end %>
+        <%# </div> %>
+      <%# <% end %>
 </div>
 </div>
 </section>
